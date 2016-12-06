@@ -1,5 +1,6 @@
 # Sitecore.Support.137518
-Prevents from &#8220;OutOfMemoryException&#8221; when using &#8220;Sitecore.DependencyInjection.ServiceLocator&#8221; too many times
+The `OutOfMemoryException` exception may occur when the `Sitecore.DependencyInjection.ServiceLocator.ServiceProvider` property getter is called too many times.<br/>
+This patch prevents from the described error.
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.137518/blob/master/LICENSE).  
